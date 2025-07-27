@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Producto - Biblioteca Esencial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Fundamentos de Producto</h1>
+            <p class="header__subtitle">Biblioteca Esencial para Product Managers</p>
+        </header>
+
+        <!-- Book Navigation -->
+        <nav class="book-nav">
+            <ul class="book-tabs" role="tablist" aria-label="Seleccionar libro de fundamentos de producto">
+                <li role="presentation">
+                    <button class="book-tab active" role="tab" data-book="inspired" aria-selected="true" tabindex="0" id="tab-inspired" aria-controls="inspired-content">
+                        <span class="book-tab__title">Inspired</span>
+                        <span class="book-tab__author">Marty Cagan</span>
+                    </button>
+                </li>
+                <li role="presentation">
+                    <button class="book-tab" role="tab" data-book="buildtrap" aria-selected="false" tabindex="-1" id="tab-buildtrap" aria-controls="buildtrap-content">
+                        <span class="book-tab__title">Escaping the Build Trap</span>
+                        <span class="book-tab__author">Melissa Perri</span>
+                    </button>
+                </li>
+                <li role="presentation">
+                    <button class="book-tab" role="tab" data-book="leanplaybook" aria-selected="false" tabindex="-1" id="tab-leanplaybook" aria-controls="leanplaybook-content">
+                        <span class="book-tab__title">The Lean Product Playbook</span>
+                        <span class="book-tab__author">Dan Olsen</span>
+                    </button>
+                </li>
+                <li role="presentation">
+                    <button class="book-tab" role="tab" data-book="pmcareer" aria-selected="false" tabindex="-1" id="tab-pmcareer" aria-controls="pmcareer-content">
+                        <span class="book-tab__title">Cracking the PM Career</span>
+                        <span class="book-tab__author">Bavaro & Laakmann</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dynamic content will be loaded here -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Creado por <a href="https://www.linkedin.com/in/alissoncarmonacardenas20?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">Alisson Carmona Cardenas</a> – LinkedIn</p>
+                <p class="footer-year">&copy; 2025 - Fundamentos de Producto</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
